@@ -428,6 +428,41 @@ img.rotate {
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
+
+/*stars*/
+@-webkit-keyframes rotate {
+  from { -webkit-transform: rotate(0deg);  }
+  to { -webkit-transform: rotate(360deg);  }
+}
+
+.stars-1 {
+    position: absolute;
+  left: -25%;
+  background: url('../img/stars.png');
+  display: block;
+  width: 1500px;
+  height: 800px; top:0;
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         100s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 0;
+}
+
+.stars-2 {
+    position: absolute;
+  right: -40%;
+  top: -5%;
+  background: url('../img/stars.png');
+  display: block;
+  width: 1500px;
+  height: 800px;
+    -webkit-animation-name:             rotate;
+    -webkit-animation-duration:         120s;
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    z-index: 0;
+}
 @media (max-width: 48em) {
     .header-logo {
         width: 250px;
