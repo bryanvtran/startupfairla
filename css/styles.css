@@ -437,17 +437,20 @@ img.rotate {
 
 .stars-1 {
     position: absolute;
-  left: -25%;
-  background: url('../img/stars.png');
-  display: block;
+    top: 10%;
+    left: 25%;
+    background: url('../img/stars.png');
+    display: block;
+    overflow: hidden;
 }
 
 .stars-2 {
     position: absolute;
-  right: -40%;
-  top: -5%;
-  background: url('../img/stars.png');
-  display: block;
+    top: 15%;
+    left: 30%;
+    background: url('../img/stars.png');
+    display: block;
+    overflow: hidden;
 }
 
 @media (max-width: 48em) {
@@ -469,12 +472,12 @@ img.rotate {
 @media (min-width: 48em) {
     .stars-1 {
         -webkit-animation-name:             rotate;
-        -webkit-animation-duration:         100s;
+        -webkit-animation-duration:         80s;
         -webkit-animation-iteration-count:  infinite;
         -webkit-animation-timing-function: linear;
         z-index: 0;
-        width: 1500px;
-        height: 800px; top:0;
+        width: 60%;
+        height: 50%;
     }
 
     .stars-2 {
@@ -483,7 +486,7 @@ img.rotate {
         -webkit-animation-iteration-count:  infinite;
         -webkit-animation-timing-function: linear;
         z-index: 0;
-        width: 1500px;
-        height: 800px;
+        width: 50%;
+        height: 50%;
     }
 }
