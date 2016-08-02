@@ -1,5 +1,10 @@
 // past startups
-const startups = [
+function Shuffle(o) {
+	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+	return o;
+};
+
+var startups = [
   {
     src: "aerserve.jpg",
     alt: "AerServe",
@@ -192,8 +197,10 @@ const startups = [
   }
 ];
 
+var shuffled = Shuffle(startups);
+
 document.querySelector("#past-startups").innerHTML +=
-  startups
+  shuffled
     .map(({src, alt, url}) => `
     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-xs-center">
         <div class="card">
