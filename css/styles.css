@@ -377,7 +377,7 @@ header {
 }
 
 .header-logo {
-    width: 300px;
+    width: 35vh;
 }
 
 .header-subtitle {
@@ -468,7 +468,7 @@ img.rotate {
 
 @media (max-width: 48em) {
     .header-logo {
-        width: 250px;
+        width: 225px;
     }
     header .header-content {
         padding-top: 30px;
