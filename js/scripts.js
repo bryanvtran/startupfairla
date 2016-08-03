@@ -204,7 +204,7 @@ document.querySelector("#past-startups").innerHTML +=
     .map(({src, alt, url}) => `
     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-xs-center">
         <div class="card">
-            <a href="${url}"> <img src="img/startups/${src}" alt=${alt} class="img-fluid" /></a>
+            <a href="${url}" target="_blank"> <img src="img/startups/${src}" alt=${alt} class="img-fluid" /></a>
         </div>
     </div>`)
     .join('');
