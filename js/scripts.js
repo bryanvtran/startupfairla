@@ -198,16 +198,14 @@ var startups = [
 ];
 
 var shuffled = Shuffle(startups);
-
-document.querySelector("#past-startups").innerHTML +=
-  shuffled
-    .map(({src, alt, url}) => `
-    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-xs-center">
+shuffled.forEach(function(company) {
+    document.querySelector("#past-startups").innerHTML +=
+    `<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-xs-center">
         <div class="card">
-            <a href="${url}" target="_blank"> <img src="img/startups/${src}" alt=${alt} class="img-fluid" /></a>
+          <a href="` + company.url + `" target="_blank"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
         </div>
-    </div>`)
-    .join('');
+      </div>`
+	});
 
 (function($) {
     "use strict";
