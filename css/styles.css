@@ -64,6 +64,7 @@ a.contact-link:focus {
     font-weight: 600;
     background: #4aa3f3;
     color: #fff;
+    cursor: pointer;
 }
 
 a.contact-link.contact-link-small {
