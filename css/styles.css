@@ -467,6 +467,34 @@ img.rotate {
     width: 100%;
 }
 
+.row.sponsors {
+    text-align: center;
+}
+
+.title {
+    width: 35%;
+    margin:.25em;
+    display: inline-block;
+}
+
+.gold {
+    width: 30%;
+    margin:.25em;
+    display: inline-block;
+}
+
+.silver {
+    width: 24%;
+    margin: .25em;
+    display: inline-block;
+}
+
+.bronze {
+    width: 19%;
+    margin: .25em;
+    display: inline-block;
+}
+
 @media (max-width: 48em) {
     .header-logo {
         width: 225px;
@@ -480,6 +508,14 @@ img.rotate {
         top: 0;
         left: 0;
         right: 0;
+    }
+    .title,.gold {
+        width: 100%;
+        margin: 0;
+    }
+    .silver,.bronze {
+        width: 49%;
+        margin:0;
     }
 }
 

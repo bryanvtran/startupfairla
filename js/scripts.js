@@ -1,211 +1,93 @@
-// past startups
-function Shuffle(o) {
-	for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-	return o;
-};
-
-var startups = [
-  {
-    src: "aerserve.jpg",
-    alt: "AerServe",
-    url: "//www.aerserv.com"
-  },
-  {
-    src: "assetavenue.png",
-    alt: "AssetAvenue",
-    url: "//www.assetavenue.com/"
-  },
-  {
-    src: "avant.png",
-    alt: "Avant",
-    url: "//www.avant.com"
-  },
-  {
-    src: "beehive.png",
-    alt: "Beehive",
-    url: "//www.heybeehive.com"
-  },
-  {
-    src: "datascience.png",
-    alt: "DataScience",
-    url: "//www.datascience.com"
-  },
-  {
-    src: "dropin.png",
-    alt: "DropIn",
-    url: "//www.dropininc.com/"
-  },
-  {
-    src: "eatthismuch.png",
-    alt: "EatThisMuch",
-    url: "//www.eatthismuch.com"
-  },
-  {
-    src: "epoxy.png",
-    alt: "Epoxy",
-    url: "//epoxy.tv"
-  },
-  {
-    src: "fluxcharger.png",
-    alt: "FluxCharger",
-    url: "//www.fluxchargers.com"
-  },
-  {
-    src: "fluxla.png",
-    alt: "FluxLA",
-    url: "//flux.la"
-  },
-  {
-    src: "gem.png",
-    alt: "Gem",
-    url: "//gem.co"
-  },
-  {
-    src: "goguardian.png",
-    alt: "GoGuardian",
-    url: "//www.goguardian.com"
-  },
-  {
-    src: "gridspace.png",
-    alt: "Gridspace",
-    url: "//www.gridspace.com"
-  },
-  {
-    src: "gustudio.png",
-    alt: "Gu Studio",
-    url: "//www.gustudio.com/"
-  },
-  {
-    src: "hart.png",
-    alt: "Hart",
-    url: "//hart.com"
-  },
-  {
-    src: "irobot.png",
-    alt: "iRobot",
-    url: "//irobot.com"
-  },
-  {
-    src: "laserfiche.png",
-    alt: "Laserfiche",
-    url: "//www.laserfiche.com"
-  },
-  {
-    src: "localrootsfarm.png",
-    alt: "Local Roots Farm",
-    url: "//www.localrootsfarms.com"
-  },
-  {
-    src: "locent.png",
-    alt: "Locent",
-    url: "//locent.com"
-  },
-  {
-    src: "microduino.png",
-    alt: "Microduino",
-    url: "//www.microduino.cc"
-  },
-  {
-    src: "mkpartners.png",
-    alt: "MK Partners",
-    url: "//www.mkpartners.com"
-  },
-  {
-    src: "moopon.jpg",
-    alt: "Moopon",
-    url: "//moopon.us/"
-  },
-  {
-    src: "nimble.png",
-    alt: "Nimble",
-    url: "//www.nimble.com"
-  },
-  {
-    src: "originate.png",
-    alt: "Originate",
-    url: "//www.originate.com"
-  },
-  {
-    src: "rackspace.png",
-    alt: "RackSpace",
-    url: "//www.rackspace.com"
-  },
-  {
-    src: "rendermedia.png",
-    alt: "Render Media",
-    url: "//www.rndr.com"
-  },
-  {
-    src: "rivo.jpg",
-    alt: "rivo",
-    url: "//www.justrevel.com"
-  },
-  {
-    src: "scorebig.png",
-    alt: "ScoreBig",
-    url: "//www.scorebig.com"
-  },
-  {
-    src: "shadowbid.png",
-    alt: "Shadowbid",
-    url: "//www.shadowbid.com"
-  },
-  {
-    src: "snapchat.png",
-    alt: "Snapchat",
-    url: "//www.snapchat.com"
-  },
-  {
-    src: "songabout.png",
-    alt: "SongAbout",
-    url: "//songabout.fm/"
-  },
-  {
-    src: "stackcommerce.png",
-    alt: "StackCommerce",
-    url: "//stackcommerce.com"
-  },
-  {
-    src: "tenoneten.png",
-    alt: "TenOneTen",
-    url: "//tenoneten.net"
-  },
-  {
-    src: "tinder.png",
-    alt: "Tinder",
-    url: "//www.tinder.com"
-  },
-  {
-    src: "tripscope.jpg",
-    alt: "TripScope",
-    url: "//www.tripscopeapp.com/"
-  },
-  {
-    src: "tuitionio.png",
-    alt: "Tuitionio",
-    url: "//www.tuition.io"
-  },
-  {
-    src: "videoamp.jpeg",
-    alt: "VideoAmp",
-    url: "//videoamp.com"
-  },
-  {
-    src: "zestfinance.png",
-    alt: "Zest Finance",
-    url: "//www.zestfinance.com"
-  }
+var titleSponsor = [
+    {
+        src: "rufuslabs.png",
+        alt: "Rufus Labs",
+        url: "http://www.getrufus.com/"
+    }
 ];
 
-var shuffled = Shuffle(startups);
-shuffled.forEach(function(company) {
-    document.querySelector("#past-startups").innerHTML +=
-    `<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6 text-xs-center">
-        <div class="card">
-          <a href="` + company.url + `" target="_blank"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
-        </div>
-      </div>`
-	});
+var goldSponsors = [
+    {
+        src: "freedompop.png",
+        alt: "FreedomPop",
+        url: "http://freedompop.com/"
+    },
+    {
+        src: "gumgum.png",
+        alt: "GumGum",
+        url: "http://www.gumgum.com"
+    },
+    {
+        src: "replicated.png",
+        alt: "Replicated",
+        url: "https://www.replicated.com/"
+    },
+];
+
+var silverSponsors = [
+    {
+        src: "blackstone.png",
+        alt: "Blackstone Launchpad",
+        url: "https://blackstonelaunchpad.org/"
+    },
+    {
+        src: "enervee.png",
+        alt: "Enervee",
+        url: "https://enervee.com/"
+    },
+    {
+        src: "farapp.png",
+        alt: "FarApp",
+        url: "http://www.farapp.com/"
+    },
+    {
+        src: "patientpop.png",
+        alt: "PatientPop",
+        url: "https://www.patientpop.com/"
+    },
+    {
+        src: "skurt.png",
+        alt: "Skurt",
+        url: "http://www.skurt.com/"
+    },
+    {
+        src: "startupucla.png",
+        alt: "StartupUCLA",
+        url: "http://startupucla.com/"
+    }
+]
+
+var bronzeSponsors = [
+    {
+        src: "ariento.png",
+        alt: "Ariento",
+        url: "http://www.ariento.com"
+    },
+    {
+        src: "mkpartners.png",
+        alt: "MK Partners",
+        url: "http://www.mkpartners.com"
+    },
+    {
+        src: "nopical.png",
+        alt: "Nopical",
+        url: "http://nopical.com/"
+    },
+]
+
+function eachFun(company, title) {
+    var query = "#" + title + "-sponsors"
+    document.querySelector(query).innerHTML +=
+    `<div class="card ` +  title + `">
+        <a href="` + company.url + `" target="_blank"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
+    </div>`
+}
+
+
+titleSponsor.forEach(function(company) { eachFun(company, "title"); });
+goldSponsors.forEach(function(company) { eachFun(company, "gold"); });
+silverSponsors.forEach(function(company) { eachFun(company, "silver"); });
+bronzeSponsors.forEach(function(company) { eachFun(company, "bronze"); });
 
 (function($) {
     "use strict";
