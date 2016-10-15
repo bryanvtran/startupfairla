@@ -534,6 +534,10 @@ img.rotate {
         margin-bottom: .5em;
         width: 175px;
     }
+
+    .popover {
+        max-width: 200px;
+    }
 }
 
 @media (min-width: 48em) {
