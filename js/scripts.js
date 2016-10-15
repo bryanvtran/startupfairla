@@ -42,7 +42,7 @@ var goldSponsors = [
         alt: "Ultra Mobile",
         url: "ultramobile.com",
         body: "Ultra Mobile is a prepaid wireless company. We focus on delivering convenient and cost-effective communication services, so friends and family can stay connected from all across the world.",
-        positions: "Software Engineering, Full-Time/Part-Time Intern, Spring/Summer/Fall/Winter"
+        positions: "Software Engineering, Full-Time/Part-Time Intern"
     },
 ];
 
