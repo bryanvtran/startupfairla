@@ -495,6 +495,18 @@ img.rotate {
     display: inline-block;
 }
 
+.sponsor-popover {
+    cursor: pointer;
+}
+
+.sponsor-links {
+    word-wrap: break-word;
+}
+
+.register {
+    width: 200px;
+}
+
 @media (max-width: 48em) {
     .header-logo {
         width: 225px;

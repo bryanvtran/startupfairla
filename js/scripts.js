@@ -2,7 +2,9 @@ var titleSponsor = [
     {
         src: "rufuslabs.png",
         alt: "Rufus Labs",
-        url: "http://www.getrufus.com/"
+        url: "www.getrufus.com",
+        body: "Rufus builds wearable technology for a superhuman workforce.",
+        positions: "Android & iOS Engineers, Brand/Marketing, Mechanical Engineer, Operations Coordinator (Full Time & Interns)"
     }
 ];
 
@@ -10,17 +12,37 @@ var goldSponsors = [
     {
         src: "freedompop.png",
         alt: "FreedomPop",
-        url: "http://freedompop.com/"
+        url: "freedompop.com",
+        body: "FreedomPop has been a disruptive freemium telco delivering the nation’s first 100% FREE mobile phone and wireless internet service since 2011. With $100m+ in Series C funding, FreedomPop is rewriting the rules of the global telecom industry.",
+        positions: "Front End Engineers, Mobile Engineers, Full Stack Engineers, Data Engineers"
     },
     {
         src: "gumgum.png",
         alt: "GumGum",
-        url: "http://www.gumgum.com"
+        url: "www.gumgum.com",
+        body: "Based in Santa Monica, California, GumGum is a leader in the computer vision space, with a mission to unlock the value of every connected image for marketers and publishers. Its patented image-recognition technology delivers highly visible campaigns.",
+        positions: "Data Engineering Intern for Fall 2016 with possibility of full-time offer based on performance"
+    },
+    {
+        src: "levyx.jpg",
+        alt: "Levyx Inc.",
+        url: "www.levyx.com",
+        body: "Levyx is one of the best opportunities to work on cutting-edge storage and data-driven technologies in SoCal! Levyx is a VC-backed start-up led by industry luminaries. Join the team that is fundamentally disrupting the economics of big data applications, bringing the benefits of high-speed big-data processing to the masses!",
+        positions: "Software engineering intern positions, both full-time and part-time roles"
     },
     {
         src: "replicated.png",
         alt: "Replicated",
-        url: "https://www.replicated.com/"
+        url: "www.replicated.com",
+        body: "Replicated is building tools to support how enterprise software is built. We are making it simple for SaaS vendors to ship private versions of their software. We are using modern technology like Go, ReactJS and Docker.",
+        positions: "Software Engineering, Full-Time QA Engineering, Full-Time"
+    },
+    {
+        src: "ultra.png",
+        alt: "Ultra Mobile",
+        url: "ultramobile.com",
+        body: "Ultra Mobile is a prepaid wireless company. We focus on delivering convenient and cost-effective communication services, so friends and family can stay connected from all across the world.",
+        positions: "Software Engineering, Full-Time/Part-Time Intern, Spring/Summer/Fall/Winter"
     },
 ];
 
@@ -28,32 +50,51 @@ var silverSponsors = [
     {
         src: "blackstone.png",
         alt: "Blackstone Launchpad",
-        url: "https://blackstonelaunchpad.org/"
+        url: "blackstonelaunchpad.org",
+        body: "Blackstone LaunchPad is a campus based entrepreneurship program, accessible by over 630K students globally, designed to support and mentor students, staff and alumni - regardless of major, experience or discipline.",
+        positions: ""
     },
     {
         src: "enervee.png",
         alt: "Enervee",
-        url: "https://enervee.com/"
+        url: "enervee.com",
+        body: "Enervee builds products that make it easy for people to make energy-smart buying decisions. We’re the world’s first platform-oriented company that drives energy efficiency and consumer engagement through innovative SaaS products that change how we buy energy-using appliances and products.",
+        positions: ""
     },
     {
         src: "farapp.png",
         alt: "FarApp",
-        url: "http://www.farapp.com/"
+        url: "www.farapp.com",
+        body: "FarApp is the leading solution in eCommerce automation. We connect customer-facing systems (Amazon, eBay, Shopify, etc.) with 3PLs (Shipwire, Shipstation, etc.) and back-end systems (such as NetSuite).",
+        positions: "Software engineering full-time"
     },
     {
         src: "patientpop.png",
         alt: "PatientPop",
-        url: "https://www.patientpop.com/"
+        url: "www.patientpop.com",
+        body: "PatientPop is an all-in-one solution for patient acquisition, reputation management, retention marketing, and business insights.",
+        positions: ""
+    },
+    {
+        src: "qualitrics.png",
+        alt: "Qualtrics",
+        url: "www.qualtrics.com",
+        body: "Qualtrics provides software to manage the entire customer experience - from surveys, to insights, to action",
+        positions: ""
     },
     {
         src: "skurt.png",
         alt: "Skurt",
-        url: "http://www.skurt.com/"
+        url: "www.skurt.com",
+        body: "Skurt is the fastest way to get behind the wheel and have it delivered with no lines or paperwork! Plus, with us there are no fees associated with age or gas mark-ups.",
+        positions: ""
     },
     {
         src: "startupucla.png",
-        alt: "StartupUCLA",
-        url: "http://startupucla.com/"
+        alt: "Startup UCLA",
+        url: "startupucla.com",
+        body: "Startup UCLA seeks to develop a culture of startup thinking on campus, to connect students with alumni who are successful in the startup world, to give students opportunities to learn the basics of startup thinking, and to provide a community in which students can develop and launch their early-stage ideas.",
+        positions: ""
     }
 ]
 
@@ -61,27 +102,87 @@ var bronzeSponsors = [
     {
         src: "ariento.png",
         alt: "Ariento",
-        url: "http://www.ariento.com"
+        url: "www.ariento.com",
+        body: "Ariento provides cybersecurity assessments (i.e. pentests) and protection (through our security operations center) to small businesses.",
+        positions: "Interns to conduct pentests (ethically hack) and/or work in our security operations center (SOC)"
+    },
+    {
+        src: "blitzer.jpg",
+        alt: "Blitzer",
+        url: "blitzerapp.com/site/pitch",
+        body: "Blitzer is a social discovery application that connects users to people who are nearby, in the moment. Users mark their approximate location on the responsive map, express their interests and chat, allowing them to connect real time.",
+        positions: "Launch outreach team"
+    },
+    {
+        src: "microduino.png",
+        alt: "Microduino",
+        url: "microduino.cc",
+        body: "We create the smallest Arduino compatible modules for Makers, DIY enthusiasts, STEM Ed and anyone with an idea.",
+        positions: "Marketing Intern, Engineering Intern Spring and Summer"
     },
     {
         src: "mkpartners.png",
         alt: "MK Partners",
-        url: "http://www.mkpartners.com"
+        url: "www.mkpartners.com",
+        body: "Everything we do, we believe in unlocking untapped potential. We believe in continuous improvement. We make our solutions efficient, enviously ingenious and thoroughly effective. When it comes to cloud solutions, we soar above the rest. Join us!",
+        positions: "Jr. Business Analyst Jr. Developer Business Development Representative Marketing Intern IT Intern Sales Intern"
     },
     {
         src: "nopical.png",
         alt: "Nopical",
-        url: "http://nopical.com/"
+        url: "nopical.com",
+        body: "Nopical is news aggregation site changing how users consume and share news online.",
+        positions: "Project manager, Design specialist"
+    },
+    {
+        src: "pickmysolar.png",
+        alt: "Pick My Solar",
+        url: "pickmysolar.com",
+        body: "Pick My Solar is the only online bidding platform for solar buyers. Compare quotes from dozens of top solar companies. Go solar with confidence!",
+        positions: ""
+    },
+    {
+        src: "pupil.png",
+        alt: "Pupil On Demand Tutoring",
+        url: "ggoodstein16.wixsite.com/pupilondemand",
+        body: "Pupil on demand tutoring is an on demand platform that allows students to receive in person tutors at the touch of a button for whatever subject they require.",
+        positions: "Marketing intern, tutors, management positions, brand ambassadors"
+    },
+    {
+        src: "puff-pack.jpg",
+        alt: "The Puff Pack",
+        url: "www.thepuffpack.com",
+        body: "The Puff Pack is a subscription-based service that allows smokers to replenish their depleted smoking accessories at the most affordable price possible.",
+        positions: "Potential buyout and/or marketing team expansion"
+    },
+    {
+        src: "shoobilee.png",
+        alt: "Shoobilee, Inc.",
+        url: "shoobilee.com",
+        body: "First ever all-you-can-wear shoe subscription service with a charitable cause for shoe lovers! Shoobilee is set out to make a difference by satisfying the desire of fashion while fulfilling a good social cause.",
+        positions: "Jr. Graphic Designer Jr. Social Media Specialist Web Developers (Front/Backend) App Developers (Front/Backend) Brand Advocates"
     },
 ]
 
 function eachFun(company, title) {
     var query = "#" + title + "-sponsors"
-    document.querySelector(query).innerHTML +=
-    `<div class="card ` +  title + `">
-        <a href="` + company.url + `" target="_blank"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
-    </div>`
+    if (company.positions) {
+        document.querySelector(query).innerHTML +=
+        `<div class="card ` +  title + `">
+            <a class="sponsor-popover" tabindex="0" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<p>` + company.body + ` Learn more at <a style='word-wrap: break-word;' target='_blank' href='//` + company.url +`'> ` + company.url +`</a>.</p><p>Positions: ` + company.positions + `</p>" data-original-title="` + company.alt + `"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
+        </div>`
+    }
+    else {
+        document.querySelector(query).innerHTML +=
+        `<div class="card ` +  title + `">
+            <a class="sponsor-popover" tabindex="0" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<p>` + company.body + ` Learn more at <a style='word-wrap: break-word;' target='_blank' href='//` + company.url +`'> ` + company.url +`</a>.</p>" data-original-title="` + company.alt + `"> <img src="img/startups/` + company.src +  `" alt="` + company.alt + `" class="img-fluid" /></a>
+        </div>`
+    }
 }
+
+// <div class="card title">
+//   <a class="sponsor-popover" tabindex="0" data-toggle="popover" data-placement="top" title="" data-html="true" data-content="<p>Rufus builds wearable technology for a superhuman workforce. Learn more <a href='//www.getrufus.com' target='_blank'>www.getrufus.com</a></p><p>Positions: Android & iOS Engineers, Brand/Marketing, Mechanical Engineer, Operations Coordinator (Full Time & Interns)</p>" data-original-title="Rufus Labs"><img src="img/startups/rufuslabs.png" alt="Rufus Labs" class="img-fluid" title="" style=""></a>
+// </div>
 
 
 titleSponsor.forEach(function(company) { eachFun(company, "title"); });
