@@ -529,6 +529,11 @@ img.rotate {
         width: 49%;
         margin:0;
     }
+
+    .register {
+        margin-bottom: .5em;
+        width: 175px;
+    }
 }
 
 @media (min-width: 48em) {
@@ -550,5 +555,9 @@ img.rotate {
         z-index: 0;
         width: 50%;
         height: 50%;
+    }
+
+    .register {
+        margin-right: .5em;
     }
 }
