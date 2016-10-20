@@ -79,8 +79,8 @@ var silverSponsors = [
         src: "qualitrics.png",
         alt: "Qualtrics",
         url: "www.qualtrics.com",
-        body: "Qualtrics provides software to manage the entire customer experience - from surveys, to insights, to action",
-        positions: ""
+        body: "Qualtrics world-leading insight platform has transformed the way businesses collect, analyze, and act on valuable insights that drive better decision-making. We offer a single insight platform that captures customer, market, and employee insights.",
+        positions: "Software Engineer Full-Time, Software Engineer Intern"
     },
     {
         src: "skurt.png",
@@ -114,6 +114,20 @@ var bronzeSponsors = [
         positions: "Launch outreach team"
     },
     {
+        src: "boxcamp.png",
+        alt: "BoxCamp",
+        url: "boxcamp.co",
+        body: "BoxCamp is a rapidly expanding student-run summer storage company looking for brand ambassadors and students interested in marketing/operations experience.",
+        positions: "Brand ambassadors, Operations intern Marketing intern"
+    },
+    {
+        src: "everipedia.png",
+        alt: "Everipedia",
+        url: "www.everipedia.com/everipedia",
+        body: "Everipedia is a free, easy to use wiki and commenting platform. Write about anyone and anything! Everipedia is a UCLA student and alumni led startup with major traction and has raised over 500k in venture capital.",
+        positions: "Intern, marketing, part time developer"
+    },
+    {
         src: "microduino.png",
         alt: "Microduino",
         url: "microduino.cc",
@@ -138,8 +152,8 @@ var bronzeSponsors = [
         src: "pickmysolar.png",
         alt: "Pick My Solar",
         url: "pickmysolar.com",
-        body: "Pick My Solar is the only online bidding platform for solar buyers. Compare quotes from dozens of top solar companies. Go solar with confidence!",
-        positions: ""
+        body: "Are you ready to be a part of something big? Pick My Solar’s fast paced, exciting, and engaging startup environment might be just what you’re looking for. Not only are we innovating and disrupting the solar market, but we are making the world clean.",
+        positions: "Social Media Intern Business Development Intern Marketing Intern Research and Development Intern"
     },
     {
         src: "pupil.png",
@@ -161,6 +175,13 @@ var bronzeSponsors = [
         url: "shoobilee.com",
         body: "First ever all-you-can-wear shoe subscription service with a charitable cause for shoe lovers! Shoobilee is set out to make a difference by satisfying the desire of fashion while fulfilling a good social cause.",
         positions: "Jr. Graphic Designer Jr. Social Media Specialist Web Developers (Front/Backend) App Developers (Front/Backend) Brand Advocates"
+    },
+    {
+        src: "textpert.png",
+        alt: "Textpert",
+        url: "textpertapp.co",
+        body: "Textpert is an iOS app that provides a platform to exchange advice with anonymous friends.",
+        positions: "Front-end and back-end engineers full-time/part-time/intern (now)"
     },
 ]
 
