@@ -31,6 +31,13 @@ var goldSponsors = [
         positions: "Software engineering intern positions, both full-time and part-time roles"
     },
     {
+        src: "originate.jpg",
+        alt: "Originate",
+        url: "www.originate.com",
+        body: "We design, build, and evolve modern software products. We create intelligent user experiences and beautiful visual designs. We build modern mobile, cloud-native, AI, and data-driven software in iOS, Android, Ruby, Scala, Haskell, Node.js, Javascript,",
+        positions: "Software Engineer, Software Engineering Intern"
+    },
+    {
         src: "replicated.png",
         alt: "Replicated",
         url: "www.replicated.com",
