@@ -65,8 +65,8 @@ var silverSponsors = [
         src: "enervee.png",
         alt: "Enervee",
         url: "enervee.com",
-        body: "Enervee builds products that make it easy for people to make energy-smart buying decisions. We’re the world’s first platform-oriented company that drives energy efficiency and consumer engagement through innovative SaaS products that change how we buy energy-using appliances and products.",
-        positions: ""
+        body: "We’re Enervee, a startup located in Venice, CA that makes SaaS products, and we have a simple goal: better the world by empowering consumers to make energy efficient purchasing decisions.",
+        positions: "DevOps Engineer Backend & Data Engineer Director of Customer Success Director of Performance Marketing"
     },
     {
         src: "farapp.png",
@@ -189,6 +189,13 @@ var bronzeSponsors = [
         url: "textpertapp.co",
         body: "Textpert is an iOS app that provides a platform to exchange advice with anonymous friends.",
         positions: "Front-end and back-end engineers full-time/part-time/intern (now)"
+    },
+    {
+        src: "woahstork.jpg",
+        alt: "WoahStork",
+        url: "www.woahstork.com",
+        body: "Are you a passionate coder who wants to work with a group of young and smart UCLA PhDs? Are you excited by the potentials for recreational marijuana legalization in November? If so, WoahStork would like to talk to you!",
+        positions: "Software engineering, intern/part-time/full-time if successful."
     },
 ]
 
