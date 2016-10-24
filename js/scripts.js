@@ -135,6 +135,13 @@ var bronzeSponsors = [
         positions: "Intern, marketing, part time developer"
     },
     {
+        src: "lockit.jpg",
+        alt: "LockIt",
+        url: "www.mylockit.com",
+        body: "We believe that our experiences are only as valuable as our memory of them, so we've created a private web app that helps us make sense of the vastness of our memory by enabling us to curate, organize and store within the larger context of our lives.",
+        positions: "EE/experimental hardware intern (wearable tech), design intern, software developer intern, social media intern"
+    },
+    {
         src: "microduino.png",
         alt: "Microduino",
         url: "microduino.cc",
@@ -189,6 +196,13 @@ var bronzeSponsors = [
         url: "textpertapp.co",
         body: "Textpert is an iOS app that provides a platform to exchange advice with anonymous friends.",
         positions: "Front-end and back-end engineers full-time/part-time/intern (now)"
+    },
+    {
+        src: "voucial.png",
+        alt: "Voucial",
+        url: "voucial.weebly.com",
+        body: "The traditional marketing methods don't work on millennials anymore. We leverage the power of social media to provide a scalable solution to referral marketing.",
+        positions: "App developer, part-time"
     },
     {
         src: "woahstork.jpg",
